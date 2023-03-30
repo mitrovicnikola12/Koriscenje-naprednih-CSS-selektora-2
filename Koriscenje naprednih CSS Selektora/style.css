@@ -1,0 +1,26 @@
+a[href*="google"] {
+    color: green;
+}
+
+a[href*="link"] {
+    color: red;
+}
+
+#second-div p:nth-child(even) {
+    color: red;
+}
+
+#second-div p:nth-child(odd) {
+    color: blue;
+}
+
+.new::after {
+    content: "-new";
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.krivi-tekst:hover {
+    font-style: italic;
+    cursor: pointer;
+}
